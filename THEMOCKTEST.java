@@ -33,7 +33,7 @@
 		 IBIO.output("Min: " + min);
 		 IBIO.output("Sum: " + (sum/n));
 	 }
-	 for(int a = 2; a < max; a++){
+	 for(int a = 2; a < max; a++){ 
 	 	if( a > max){
 			prime = 1;
 		 }
