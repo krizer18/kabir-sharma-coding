@@ -11,7 +11,7 @@ public class practise{
 			System.exit(404);
 			}
 		if (x > 0){
-			for(int times = 0; times < n; times++){
+			for(int times = 1; times < n; times++){
 				total = x * total;
 			}
 			
@@ -21,3 +21,5 @@ public class practise{
 		}
 	}
 }
+
+
