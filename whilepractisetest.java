@@ -45,7 +45,6 @@ public class whilepractisetest{
 		IBIO.output( "Term " + amount + ": " + total);
 		IBIO.output("Average = " + (atotal/(amount+1)));
 }
-	
   }while(amount != 0);
 }
 
