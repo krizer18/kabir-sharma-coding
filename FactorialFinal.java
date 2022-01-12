@@ -1,7 +1,6 @@
 public class FactorialFinal{
 	public static void main (String[] args){
 		IBIO.output("Kabir Sharma");
-		`
 		int n = IBIO.inputInt("Enter an integer between 1 and 20: ");
 		long total = 1;
 		String factor;
