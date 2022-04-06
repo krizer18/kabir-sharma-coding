@@ -59,7 +59,32 @@ public class ArrayTest
 		return secmax;
 		}
 	//------------------------------------------------------------------
-
+	
+	public static double thirmax(double[] array, double max, double secmax){
+		double thirmax = array[0];
+		/*double max2 = array[0];
+		for(int i = 0; i < array.length; i++){
+			if(array[i] > max2){
+				max2 = array[i];
+			}
+		}*/
+		//this is if the parameters are not set (double max, double secmax)
+		for(int i = 0; i < array.length; i++){
+			if(array[i] == max){
+				thirmax = thirmax;
+			}	
+			else if( array[i] == secmax){
+				thirmax = thirmax;
+			}
+			else{
+				if(array[i] > thirmax){
+					thirmax = array[i];
+				}
+			}
+		}
+		return thirmax;
+		}
+	//------------------------------------------------------------------
 	public static double range(double[] array)
 	{
 		double range = 0; 
@@ -135,6 +160,7 @@ public class ArrayTest
 		System.out.printf( "Minimum   (0.20): %.2f\n", min(rainfall) );
 		System.out.printf( "Maximum (765.90): %.2f\n", max(rainfall) );
 		System.out.printf( "Second maximum(idk): %.2f\n", secmax(rainfall, max(rainfall)) );
+		System.out.printf( "Thirdmax (idk): %.2f\n",thirmax(rainfall, secmax(rainfall, max(rainfall)), max(rainfall)) );
 		System.out.printf( "Range   (765.70): %.2f\n", range(rainfall) );
 		System.out.printf( "Average (178.89): %.2f\n", average(rainfall) );
 		System.out.printf( "Mode    (127.20): %.2f\n", mode(rainfall) );
@@ -145,6 +171,7 @@ public class ArrayTest
 		System.out.printf( "Minimum (25.40): %.2f\n", min(temperature) );
 		System.out.printf( "Maximum (29.50): %.2f\n", max(temperature) );
 		System.out.printf( "Second maximum(idk): %.2f\n", secmax(temperature, max(temperature)) );
+		System.out.printf( "Thirdmax (600.9):%.2f\n", thirmax(temperature, secmax(temperature, max(temperature)), max(temperature)) );
 		System.out.printf( "Range    (4.10): %.2f\n", range(temperature) );
 		System.out.printf( "Average (27.63): %.2f\n", average(temperature) );
 		System.out.printf( "Mode    (27.30): %.2f\n", mode(temperature) );
