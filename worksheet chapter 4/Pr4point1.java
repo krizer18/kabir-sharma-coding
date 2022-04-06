@@ -8,7 +8,7 @@ public class Pr4point1{
 		do{
 			IBIO.output("Press: 1 for addition");
 			IBIO.output("       2 for multiplication");
-			IBIO.output("       3 to quit");
+			IBIO.output("       3 to quit"); 
 			
 			m = IBIO.inputInt(": ");
 			
