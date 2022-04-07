@@ -100,7 +100,7 @@ public class Q3Practical
 	//------------------------------------------------------------------
 	public static void largest(int[] a, int howMany)
 	{
-		// YOUR CODE GOES HERE
+		//YOUR CODE GOES HERE
 	}
 	//------------------------------------------------------------------
 	public static void smallest(int[] a, int howMany)
